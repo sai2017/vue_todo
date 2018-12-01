@@ -1,0 +1,9 @@
+#app ul {
+  /* リストマークを非表示 */
+  list-style: none;
+}
+
+#app li > span.done {
+  /* 完了済みタスクに横線を引く */
+  text-decoration: line-through;
+}
